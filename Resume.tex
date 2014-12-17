@@ -1,0 +1,263 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Ashish}{Gupta}{ % Your name
+\urlstyle{same}\url{in.linkedin.com/in/ashmew2} \\ % Your website, LinkedIn profile or other web address
+\href{mailto:ashmew2@gmail.com}{ashmew2@gmail.com} | +91 9561347704 % Your contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education} 
+
+\subsection{Pune University}
+
+\descript{BE in Information Technology}
+\location{Expected May 2015 | Pune, IN}
+Pune Institute of Computer Technology \\
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\subsection{Maharishi Vidya Mandir}
+
+\location{Senior School Mar 2010 | Jabalpur, IN}
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Christ Church Boys School}
+
+\location{High School Mar 2008 | Jabalpur, IN}
+
+\sectionspace % Some whitespace after the section
+
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Links} 
+
+Github:// \href{https://github.com/ashmew2}{\bf ashmew2} \\
+Quora:// \href{http://www.quora.com/Ashish-Gupta-113}{\bf Ashish-Gupta-113}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Coursework
+%------------------------------------------------
+
+\section{Coursework}
+
+\subsection{UnderGraduate}
+
+Advanced Operating Systems \\
+Advanced Computer Networks \\
+Algorithms and Data Structures \\
+Computer Networks and Technology \\
+Object Oriented Programming \\
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+
+\subsection{Programming}
+
+\location{Proficient:}
+C \textbullet{} C++ \textbullet{} Python \\
+\location{Intermediate:}
+BASH \textbullet{} Java \textbullet{} i386 Assembly \\
+\location{Familiar:}
+LISP \textbullet{} Perl \textbullet{} MySQL
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Tools}
+
+Emacs \textbullet{} Wireshark \textbullet{} nmap \\
+Git \textbullet{} SVN \textbullet{} Mercurial
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Experience}
+
+\runsubsection{Bandwidth utilization in WMN}
+\descript{| Ongoing}
+
+\location{Improving Wireless Mesh Networks (WMN)}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\begin{tightitemize}
+\item Use multiple internet gateways for routing traffic for increased throughput.
+\item Offload processing from the Linux kernel into userspace using Click.
+\item Implement a bittorrent client capable of exploiting this new capability.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Google Summer of Code Project}
+\descript{| Apr 2014 – Oct 2014}
+
+\location{Port Netsurf web browser to KolibriOS}
+\begin{tightitemize}
+\item Implemented file download handler to replace libcurl.
+\item Interfaced i386 assembly http.obj library with Netsurf's codebase in C.
+\item Started a front end for Netsurf integrating KolibriOS' GUI API in assembly.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Google Summer of Code Project}
+\descript{| May 2013 – Sep 2013}
+
+\location{Implement File Transfer Support for Google Talk in Pidgin}
+\begin{tightitemize}
+\item Reverse engineered the linjingle protocol used by Google Talk.
+\item Implemented my version of libjingle into Pidgin's Google Protocol plugin.
+\item Documented the working of libjingle on the IM Freedom wiki.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{The Clash MCQ System}
+\descript{| Jul 2012 – Sep 2012}
+
+\location{A System for hosting intercollege programming competitions}
+\begin{tightitemize}
+\item Created for the PICT IEEE Student Branch.
+\item Automated the otherwise manual process of conducting rounds.
+\item Ability to use different question sets for different participants.
+\item Written in Python.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{The Snake Game}
+\descript{| Sep 2009 – Dec 2009}
+
+\location{My version of the classic snake game with a twist.}
+\begin{tightitemize}
+\item Difficulty increases as the game progresses.
+\item The snake is a linked list of nodes.
+\item Written in C++ (using Borland Turbo C).
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Achievements
+%------------------------------------------------
+
+\section{Achievements}
+
+\runsubsection{ACM ICPC}
+\descript{| Asia Regionals}
+\location{International Collegiate Programming Challenge.}
+\location{December 2012 | IIT Kanpur | Rank 54}
+
+\location{December 2013 | ASE Bangalore| Rank 110}
+
+
+\location{December 2013 | IIT Kanpur | Rank 36.}
+
+\sectionspace % Some whitespace after the section
+
+\runsubsection{National Computing Contest}
+\descript{| Team Leader}
+
+\location {National programming competition in C/C++.}
+\location {Mentored a team of six.}
+\location {Resulted in an online Judge for C/C++ Programs.}
+\location {Online Judge was tested using the Amazon AWS via SSH.}
+
+%------------------------------------------------
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
