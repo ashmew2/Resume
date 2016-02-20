@@ -1,16 +1,24 @@
+Resume
+Last Updated on 19th February 2016
+
 Ashish Gupta
-Last Updated on 17th December 2014
 
-in.linkedin.com/in/ashmew2
+www.ashmew2.me
 
-ashmew2@gmail.com | +91 9561347704
+ashmew2@gmail.com | +81 8021505496
 
-EDUCATION
+CURRENT EMPLOYER
 
-PUNE UNIVERSITY 
+RAKUTEN INC 
+OCT 2015 - PRESENT 
+Core Engineer
+Tokyo, Japan 
 
-BE IN INFORMATION TECHNOLOGY 
-Expected May 2015 | Pune, IN
+EDUCATION 
+
+PUNE UNIVERSITY
+BE IN INFORMATION TECHNOLOGY
+Graduated May 2015 | Pune, IN
 Pune Institute of Computer Technology
 
 MAHARISHI VIDYA MANDIR
@@ -19,65 +27,76 @@ Senior School Mar 2010 | Jabalpur, IN
 CHRIST CHURCH BOYS SCHOOL
 High School Mar 2008 | Jabalpur, IN
 
-LINKS
-Github://ashmew2
-Quora://Ashish-Gupta-113
 
-COURSEWORK (UNDERGRADUATE)
+HANDLES
+Github - ashmew2
+CodeChef - ashmew2
+CodeForces - ashmew2
+Linkedin - ashmew2
+Ubuntu Forums - ashmew2
+Freenode - ashmew2
+KolibriOS Forums - ashmew2
 
+COURSEWORK
+
+UNDERGRADUATE
 Advanced Operating Systems
 Advanced Computer Networks
 Algorithms and Data Structures
 Computer Networks and Technology
-Object Oriented Programming
+Distributed Systems
 
 SKILLS
 
 PROGRAMMING
 
-Proficient:
-C • C++ • Python
+C # C++ # Python
+BASH # i386 Assembly
+Click Modular Router # GNU Make
 
-Intermediate:
-BASH • Java • i386 Assembly
+TECHNOLOGY / TOOLS
+TCP / IP # Wireshark # Linux
+Git # SVN # Mercurial # Emacs
+IRC # Jenkins
 
-Familiar:
-LISP • Perl • MySQL
+EXPERIENCE
 
-TOOLS
-Emacs • Wireshark • nmap
-Git • SVN • Mercurial
+BANDWIDTH UTILIZATION IN WMN | DEC 2014 - MAR 2015
 
-BANDWIDTH UTILIZATION IN WMN | ONGOING
 Improving Wireless Mesh Networks (WMN)
-• Use multiple internet gateways for routing traffic for increased throughput.
-• Offload processing from the Linux kernel into userspace using Click.
-• Implement a bittorrent client capable of exploiting this new capability.
+# Use multiple internet gateways for routing traffic for increased 
+throughput.
+# Offload processing from the Linux kernel into userspace using Click.
+# Created a proof of concept which shows that linear gains are possible.
 
-GOOGLE SUMMER OF CODE PROJECT | APR 2014 – OCT 2014
-Port Netsurf web browser to KolibriOS
-• Implemented file download handler to replace libcurl.
-• Interfaced i386 assembly http.obj library with Netsurf’s codebase in C.
-• Started a front end for Netsurf integrating KolibriOS’ GUI API in assembly.
+KOLIBRI OS | ONGOING <FREE TIME>
+A tiny OS Written in Flat Assembly
+ Started official Netsurf Web Browser port for KolibriOS.
+ Implemented a C <=> Assembly layer for using libraries.
+ Developing a Cross Compiler for i586-unknown-kolibrios GNU Triplet Toolchain.
+ Wrote a GUI library in C which interfaces with Kolibri Kernel (in assembly).
+ Prospective Mentor for GSoC 2016.
 
-GOOGLE SUMMER OF CODE PROJECT | MAY 2013 – SEP 2013
-Implement File Transfer Support for Google Talk in Pidgin
-• Reverse engineered the linjingle protocol used by Google Talk.
-• Implemented my version of libjingle into Pidgin’s Google Protocol plugin.
-• Documented the working of libjingle on the IM Freedom wiki.
+PIDGIN INSTANT MESSENGER | MAY 2013 - SEP 2013
+Improve File Transfer Support in Pidgin
+# Reverse engineered the libjingle protocol used by Google Talk for file 
+transfers.
+# Implemented the reversed libjingle into Pidgin's Google Protocol 
+plugin.
+# Documented the working of the libjingle protocol on the IM Freedom 
+wiki.
 
-THE CLASH MCQ SYSTEM | JUL 2012 – SEP 2012
+THE CLASH MCQ SYSTEM | JUL 2012 - SEP 2012
 A System for hosting intercollege programming competitions
-• Created for the PICT IEEE Student Branch.
-• Automated the otherwise manual process of conducting rounds.
-• Ability to use different question sets for different participants.
-• Written in Python.
-
-THE SNAKE GAME | SEP 2009 – DEC 2009
+# Created for the PICT IEEE Student Branch.
+# Automated otherwise manual programming contests.
+# Matrix Style UI Written in PyQt.
+THE SNAKE GAME | SEP 2009 - DEC 2009
 My version of the classic snake game with a twist.
-• Difficulty increases as the game progresses.
-• The snake is a linked list of nodes.
-• Written in C++ (using Borland Turbo C).
+# Difficulty increases as the game progresses.
+# The maze is a bit more complex than an open rectangular classic field.
+# Written in C++ (using the ancient Borland Turbo C).
+
 
 ACHIEVEMENTS
 ACM ICPC | ASIA REGIONALS
@@ -86,8 +105,8 @@ December 2012 | IIT Kanpur | Rank 54
 December 2013 | ASE Bangalore| Rank 110
 December 2013 | IIT Kanpur | Rank 36.
 
-NATIONAL COMPUTING CONTEST | TEAM LEADER
-National programming competition in C/C++.
-Mentored a team of six.
-Resulted in an online Judge for C/C++ Programs.
-Online Judge was tested using the Amazon AWS via SSH.
+
+GOOGLE SUMMER OF CODE | GSOC
+Student in 2013 for Pidgin
+Student in 2014 for KolibriOS
+Prospective mentor in 2016 with KolibriOS
