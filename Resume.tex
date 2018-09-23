@@ -25,9 +25,7 @@
 %----------------------------------------------------------------------------------------
 \lastupdated % Print the Last Updated text at the top right
 \namesection{Ashish}{Gupta}{ % Your name
-\urlstyle{same}\url{www.ashmew2.me} \\ % Your website, LinkedIn profile or other web address
-\href{https://www.linkedin.com/in/ashmew2}{https://www.linkedin.com/in/ashmew2} \\ % Your contact information
-\href{mailto:ashmew2@gmail.com}{ashmew2@gmail.com} | +1 412-537-3101 % Your contact information
+\urlstyle{same}\url{www.ashmew2.me} | \href{linkedin.com/in/ashmew2}{linkedin.com/in/ashmew2} | ashmew2@gmail.com | +1 412-537-3101 % Your contact information
 }
 %----------------------------------------------------------------------------------------
 % LEFT COLUMN
@@ -58,7 +56,6 @@ Graduated May 2015 \\
 Github - \href{https://github.com/ashmew2}{\bf ashmew2} \\
 Freenode IRC - \href{http://freenode.org} {\bf ashmew2} \\
 CodeForces - \href{http://codeforces.com/profile/ashmew2}{\bf ashmew2} \\
-Linkedin - \href{in.linkedin.com/in/ashmew2/} {\bf ashmew2} \\
 Ubuntu Forums - \href{http://ubuntuforums.org/showthread.php?t=821461} {\bf ashmew2} \\
 KolibriOS Forums - \href{http://board.kolibrios.org/memberlist.php?mode=viewprofile&u=6211} {\bf ashmew2} \\
 CodeChef - \href{http://www.codechef.com/users/ashmew2}{\bf ashmew2} \\
@@ -67,13 +64,17 @@ CodeChef - \href{http://www.codechef.com/users/ashmew2}{\bf ashmew2} \\
 % Coursework
 %------------------------------------------------
 \section{Coursework}
+\subsection{Graduate}
+Computer Systems \\
+Embedded Systems \\
+Computer Architecture \\
+\sectionsep
+
 \subsection{UnderGraduate}
 Algorithms and Data Structures \\
-Discrete Structures \\
 Advanced Operating Systems \\
-Compiler Design \\
 Advanced Computer Networks \\
-Distributed Systems \\
+Compiler Design \\
 \sectionsep % Some whitespace after the section
 %------------------------------------------------
 % Skills
@@ -87,17 +88,17 @@ Click Modular Router  \textbullet{} GNU Make \\
 \subsection{TECHNOLOGY / TOOLS}
 Emacs \textbullet{} Git \textbullet{} SVN  \textbullet{} Wireshark \\
 GNU / Linux \textbullet{} Mercurial \textbullet{}
-IRC \textbullet{}  
+IRC   
 \sectionsep % Some whitespace after the section
 \subsection{Interests}
 %Free and Open Source Software \\
 %GNU / Linux \\
-Problem Solving \\
+%Problem Solving \\
 %Distributed Systems \\
 %Operating Systems and Kernels\\
 %Networks \\
 Multiplayer Gaming \\
-Protocol Design \\
+%Protocol Design \\
 Physics \\
 Mathematics \\
 \sectionsep % Some whitespace after the section
@@ -117,19 +118,22 @@ Mathematics \\
 \section{EXPERIENCE}
 \runsubsection{Optiver}
 \descript{| Nov 2016 - May 2018}
-\location{Amsterdam, Netherlands}
+\location{Application Engineer | Amsterdam, Netherlands}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Engineer in Core Systems \\
+\item Worked alongside trading teams to develop and manage trading systems
+\item Identified and troubleshooted issues in a high adrenaline environment
+\item Postgres, C++, Python, BASH, Linux, Networking, Transport layer protocols
 \end{tightemize}
 \sectionsep % Some whitespace after the section
 %------------------------------------------------
 \runsubsection{Rakuten Inc}
 \descript{| Oct 2015 - Oct 2016}
-\location{Tokyo, Japan}
+\location{Developer | Tokyo, Japan}
 \begin{tightemize}
-\item Core API Developer for Rakuten Super Point \\
-\item End-to-end pipelines with Ruby, Shell and Python \\
+\item Zero downtime SQL database migration in production using Redis \\
+\item Extended the Rakuten Super Point API \\  
+\item Java, Ruby, BASH, Python, Redis
 \end{tightemize}
 \sectionsep % Some whitespace after the section
 %------------------------------------------------
@@ -138,21 +142,20 @@ Mathematics \\
 \descript{| Dec 2014 - Mar 2015}
 \location{Bandwidth utilization in Wireless Mesh Networks}
 \begin{tightemize}
-\item Use multiple internet connections simultaneously for increased throughput.
-\item Load balancing in Userspace using Click Modular Router for linear gains.
-\item Radio Physics, ARP, Reverse Proxies, DHCP, L2 and L3 networking.
+\item Created a load balancer using Click to route packets out from userspace
+\item Wrote beacon generators for the link layer to advertise gateway metrics 
+\item Collected data through experiments with various network configurations
+\item ARP, DHCP, L2 and L3 networking, Click Modular Router, C++
 \end{tightemize}
 \sectionsep % Some whitespace after the section
 %------------------------------------------------
 \runsubsection{Kolibri OS}
-\location{Developer and Mentor}
+\descript{| May 2014 - August 2017}
+\location{Port Netsurf web browser to KolibriOS}
 \begin{tightemize}
-\item Author/Maintainer of Netsurf Web browser for KolibriOS.
-\item Developed a C to Assembly Interface for using assembly libraries in C.
-\item Developing a Cross Compiler based on GCC and GNU binutils with newlib port.
-\item Contributions to TCP network stack, HTTP library
-\item Mentor for GSoC 2016 for developing an FTP client.
-\item C, assembly, opcode level debugging, newlib, toolchains, kernel
+\item Developed a C to Assembly Interface for using assembly libraries in C
+\item Contributed to the TCP network stack, HTTP library and newlib port
+\item C, x86 assembly, debugging, newlib, toolchains, kernel
 \end{tightemize}
 \sectionsep % Some whitespace after the section
 %------------------------------------------------
@@ -160,19 +163,20 @@ Mathematics \\
 \descript{| May 2013 – Sep 2013}
 \location{Implement File Transfer for Google Talk in in Pidgin}
 \begin{tightemize}
-\item Reverse engineered the libjingle protocol used by Google Talk for file transfers.
-\item Implemented the reversed libjingle into Pidgin's Google Talk Protocol plugin.
-\item Documented the working of the libjingle protocol on the IM Freedom wiki.
-\item C, XMPP, Networking, Protocol design, libnice, NAT traversal.
+\item Reverse engineered the libjingle protocol used by Google Talk for file transfers
+\item Implemented the reversed libjingle into Pidgin's Google Talk Protocol plugin
+\item Documented the working of the libjingle protocol on the IM Freedom wiki
+\item C, XMPP, Networking, libnice, NAT traversal.
 \end{tightemize}
 \sectionsep % Some whitespace after the section
 %------------------------------------------------
 \runsubsection{The Clash MCQ System}
 \descript{| Jul 2012 – Sep 2012}
-\location{A System for hosting intercollege programming competitions}
+\location{Transform Intercollegiate Programming competitions}
 \begin{tightemize}
-\item Why waste paper when you can save it?
-\item Python, Qt, Networking, Algorithms, Data Structures.
+\item Eliminated the use of paper when conducting programming competitions
+\item Developed an online judge and created CTF style problems
+\item Python, Qt, Networking, Algorithms, Data Structures
 \end{tightemize}
 \sectionsep % Some whitespace after the section
 %------------------------------------------------
@@ -181,7 +185,7 @@ Mathematics \\
 \section{Achievements}
 \runsubsection{ACM ICPC}
 \descript{| Asia Regionals}
-\location{International Collegiate Programming Challenge.}
+\location{International Collegiate Programming Challenge}
 \location{December 2012 | IIT Kanpur | All Asia Rank 54}
 \location{December 2013 | ASE Bangalore | All Asia Rank 110}
 \location{December 2013 | IIT Kanpur | All Asia Rank 36}
