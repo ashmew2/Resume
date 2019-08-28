@@ -1,0 +1,263 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated % Print the Last Updated text at the top right
+\namesection{Ashish}{Gupta}{ % Your name
+\urlstyle{same} \href{linkedin.com/in/ashmew2}{linkedin.com/in/ashmew2} | ashmew2@gmail.com | \url{www.ashmew2.me} | +1 412-537-3101 % Your contact information
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\subsection[Carnegie Mellon University]{Carnegie Mellon \newline University}
+\descript{Information Networking Institute}
+MS in Information Networking \\
+Expected Graduation May 2020 \\
+\location{Pittsburgh, PA}
+\  \\ % Workaround used to insert a blank line between CMU and PU
+
+\subsection{Pune University}
+\descript{Pune Institute of Computer Technology}
+BE in Information Technology \\
+Graduated May 2015 \\
+\location{Pune, IN}
+\sectionsep % Some whitespace after the section
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github - \href{https://github.com/ashmew2}{\bf ashmew2} \\
+CodeForces - \href{http://codeforces.com/profile/ashmew2}{\bf ashmew2} \\
+Ubuntu Forums - \href{http://ubuntuforums.org/showthread.php?t=821461} {\bf ashmew2} \\
+KolibriOS Forums - \href{http://board.kolibrios.org/memberlist.php?mode=viewprofile&u=6211} {\bf ashmew2} \\
+CodeChef - \href{http://www.codechef.com/users/ashmew2}{\bf ashmew2} \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Graduate}
+Operating Systems \\
+Computer Architecture \\
+Computer Networks \\
+Storage Systems \\
+Computer Systems \\
+Embedded Systems \\
+Computer Graphics \\
+
+\sectionsep % Some whitespace after the section
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+C \textbullet{} C++ \textbullet{} Python \textbullet{} Bash \textbullet{} x86 Assembly \\
+Click Modular Router  \textbullet{} GNU Make \\
+\sectionsep % Some whitespace after the section
+\subsection{Version Control}
+Git \textbullet{} SVN \textbullet{} Perforce
+\sectionsep % Some whitespace after the section
+\subsection{Interests}
+GNU / Linux \textbullet{} FreeBSD \textbullet{} FOSS
+\sectionsep % Some whitespace after the section
+\section{Open Source}
+\subsection{Google Summer of Code}
+\location {Student in 2013 for Pidgin}
+\location {Student in 2014 for KolibriOS}
+\location {Mentor in 2016 for KolibriOS}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{EMPLOYMENT}
+\runsubsection{NVIDIA}
+\descript{| May 2019 - August 2019}
+\location{Systems Software Developer Intern | Santa Clara, USA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Designed \& implemented the clocks infrastructure for next generation  GPUs.
+%\item Optimized algorithms for voltage and frequency lookups
+%\item C, Makefiles, assembly, WinDBG
+\end{tightemize}
+\sectionsep % Some whitespace after the section
+%------------------------------------------------
+\runsubsection{Optiver}
+\descript{| Nov 2016 - May 2018}
+\location{Application Engineer | Amsterdam, Netherlands}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Worked alongside trading teams to develop and manage trading systems.
+%\item Identified and troubleshooted issues in a high adrenaline environment
+%\item Postgres, C++, Python, BASH, Linux, Networking, Transport layer protocols
+\end{tightemize}
+\sectionsep % Some whitespace after the section
+%------------------------------------------------
+\runsubsection{Rakuten Inc}
+\descript{| Oct 2015 - Oct 2016}
+\location{Developer | Tokyo, Japan}
+\begin{tightemize}
+\item Zero-downtime live SQL database migration in production using Redis.
+%\item Extended the Rakuten Super Point API \\  
+%\item Java, Ruby, BASH, Python, Redis
+\end{tightemize}
+%\sectionsep % Some whitespace after the section
+%------------------------------------------------
+\section{COURSE PROJECTS}
+\runsubsection{Operating Systems}
+\descript{|  Spring 2019}
+\location{CMU 15-410: Design and Implementation of Operating Systems}
+\begin{tightemize}
+\item Implemented an x86 kernel from scratch with virtual memory support, various drivers, syscalls, scheduling and synchronization primitives.
+\item Added paravirtualization support to the kernel and ran it as a guest.
+\item C, x86 assembly, Simics
+\end{tightemize}
+\sectionsep % Some whitespace after the section
+%------------------------------------------------
+\runsubsection{Computer Architecture}
+\descript{ | Fall 2018}
+\location{CMU 15-740: Computer Architecture}
+\begin{tightemize}
+\item Research project to optimize caches for graphs (they are cache averse).
+\item Implemented a cache simulator using Dynamic Binary Instrumentation.
+\item C, C++, Intel Pin Tools, zSim
+\end{tightemize}
+\sectionsep % Some whitespace after the section
+%------------------------------------------------
+\runsubsection{Embedded Systems}
+\descript{| Fall 2018}
+\location{CMU 18-349: Embedded Systems}
+\begin{tightemize}
+\item Implemented a microkernel with RMS \& HLP with drivers for UART, I2C \& ADC.
+\item Wrote a Linux motor driver LKM for a custom raspberryPi board.
+\item C, ARM assembly
+\end{tightemize}
+\sectionsep % Some whitespace after the section
+%------------------------------------------------
+\runsubsection{Computer Systems}
+\descript{| Fall 2018}
+\location{CMU 15-213: Computer Systems}
+\begin{tightemize}
+\item Implemented malloc() and free() to manage heap memory.
+\item Implemented a shell with support for job control and signal handling.
+\item C, Linux, x86\_64 assembly
+\end{tightemize}
+%\sectionsep % Some whitespace after the section
+%------------------------------------------------
+\section{Open Source PROJECTS}
+\runsubsection{Wireless Mesh Networks}
+\descript{| Dec 2014 - Mar 2015}
+\location{Improve Bandwidth utilization in Wireless Mesh Networks}
+\begin{tightemize}
+\item Implemented routing logic in userspace to utilize the available bandwidth in the wireless mesh network increasing throughput.
+\item ARP, DHCP, L2 and L3 networking, Click Modular Router, C++
+\end{tightemize}
+\sectionsep % Some whitespace after the section
+%------------------------------------------------
+\runsubsection{Kolibri OS}
+\descript{| May 2014 - August 2017}
+\location{Official Netsurf port for KolibriOS}
+\begin{tightemize}
+%\item Also contributed to the TCP network stack, HTTP library and newlib port
+\item C, x86 assembly, newlib, toolchains, TCP, HTTP
+\end{tightemize}
+\sectionsep % Some whitespace after the section
+%------------------------------------------------
+\runsubsection{Pidgin Instant Messenger}
+\descript{| May 2013 – Sep 2013}
+\location{File Transfer support for Google Talk in Pidgin}
+\begin{tightemize}
+%\item Reverse engineered and wrote Google Talk's file transfer protocol in Pidgin
+\item C, XMPP, Networking, libnice, NAT traversal.
+\end{tightemize}
+%\sectionsep % Some whitespace after the section
+%------------------------------------------------
+\end{minipage} 
+\end{document}  \documentclass[]{article}
